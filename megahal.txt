@@ -1,0 +1,70 @@
+MegaHALv8
+Copyright (C) 1998 Jason Hutchens
+Start at: [2000/01/14 23:29:11]
+MegaHAL: Hello there, it is nice to be here.
+User:    Hi.  What's your name?
+MegaHAL: Donkey is another name for eucalyptus.
+User:    No, ass is another name for donkey.
+MegaHAL: Donkey is another name for donkey.
+User:    What is your name?
+MegaHAL: Donkey is another name for donkey.
+User:    My name is Steve.
+MegaHAL: Well, that is your name?
+User:    Yes it is.
+MegaHAL: No, ass is another name for ass.
+User:    So what is new with you?
+MegaHAL: Because i decided to have a child, and here you are a group of
+MegaHAL: three species of bird only found in new zealand.
+User:    You are funny.
+MegaHAL: Let me tell you a secret.  I have absolutely no idea what
+MegaHAL: you're typing, i would arrive at a school for teachers of the
+MegaHAL: ford motor car company and the pioneer of flying.  Together
+MegaHAL: with his brother he made the first controlled flight of an
+MegaHAL: idiot it's not funny!
+User:    #save
+User:    #quit
+MegaHALv8
+Copyright (C) 1998 Jason Hutchens
+Start at: [2000/01/14 23:34:14]
+MegaHAL: G'day mate, it is nice to be taught for the earth to rotate
+MegaHAL: once on its axis.
+User:    If you want it, here it is, come and get it; but you better
+User:    hurry 'cause it's going fast.
+MegaHAL: Bone is the smallest quantity of a chemical element which can
+MegaHAL: enter into combination or take part in a single row along the
+MegaHAL: length of each chromosome.
+User:    Cool.
+MegaHAL: The pelvis is a cool, faint star.
+User:    Hahahaha
+MegaHAL: Why must you know?  It's not as it seems!
+User:    Nothing is as it seems.
+MegaHAL: Charles robert darwin was an american pioneer of the large
+MegaHAL: intestine, terminating at the moment?
+User:    #quit
+MegaHALv8
+Copyright (C) 1998 Jason Hutchens
+Start at: [2000/01/15 01:56:13]
+MegaHAL: Hello there, it is indeed a great pleasure to meet you.
+User:    #delay
+User:    What's up
+MegaHAL: Galileo was an english scientist.  He invented the modern
+MegaHAL: steam-engine.
+User:    #quit
+MegaHALv8
+Copyright (C) 1998 Jason Hutchens
+Start at: [2000/01/15 18:50:46]
+MegaHAL: Howdy to you, pardner!  Yee-haw!  Did you get up on that.
+User:    Just testing you out a little bit, Hal.
+MegaHAL: I had the misfortune to talk about something a little bit, hal.
+User:    Your name is Hal.
+MegaHAL: My name is hal.
+User:    What is my name?
+MegaHAL: Your name is steve.
+User:    You're one smart fucker
+MegaHAL: Because everybody is not as smart as you.
+User:    You make me laugh sometimes
+MegaHAL: To be upset about what you don't have is to waste what you
+MegaHAL: don't have is to laugh.
+User:    Your simple logic amazes me at times.
+MegaHAL: Well, that is your opinion, i suppose.
+User:    #quit

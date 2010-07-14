@@ -1,0 +1,61 @@
+File List
+
+examples
+Example Tcl scripts for MegaHAL
+LICENSE
+GNU General Public License
+paper.doc
+A paper about MegaHAL (not the module)
+README.megahal
+The README for MegaHAL (not the module)
+README.TXT
+A link to this site
+Installing (non-Windrop)
+
+Obtain the package.
+Place it in ~/eggdrop1.6.x/src/mod/
+Decompress it: tar zxvf megahal.2.x.tar.gz
+Go back to your ~/eggdrop1.6.x directory
+make config
+make
+make install
+Copy the megahal.??? files in src/mod/megahal.mod to your bot's directory
+Edit you bot's *.conf file and add the line: loadmodule megahal
+Rehash your bot
+Installing (Windrop)
+
+Obtain the package.
+Extract megahal.dll into the modules folder.
+Extract the rest of the files into the eggdrop's main folder.
+Edit you bot's *.conf file and add the line (anywhere): loadmodule megahal
+Rehash your bot
+Configuration
+
++megahal
+A channel setting. You must set +megahal on each channel that you wish the module to listen and respond to.
++learnall
+A channel setting. This setting will enable learning from everything said on the channel. It will still only respond to properly prefixed (see below) channel messages.
++freespeak
+A channel setting. Makes the bot gives random replies even though noone is talking to it, specifically.
+set mega_auto_save <whole number>
+Save the brain every how many hours. Default: 1
+set mega_backup_brain <1/0>
+Should the brain be backed up daily? Default: 1
+set mega_file_name <8.3 filename>
+What file should the brain file be loaded and saved as. Default: megahal.brn
+set mega_wpm <whole number>
+A config/Tcl file setting. Words Per Minute. This will set the speed that replies, more or less, are sent at. Default: 120
+Usage
+
+General
+Channel
+Say a line prefixed with the bot's nickname followed by a character and a space or just a space. Example: Lamestbot, How are you today?
+Private Message
+Same as above.
+Dcc Chat
+The command for dcc chat is `.megahal <text>'.
+Tcl
+learn <text>
+Makes the bot learn the specified text. Returns nothing.
+getreply <text>
+Gets the bot's reply for the given text. The bot does not learn from this text. Returns the reply.
