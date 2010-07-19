@@ -845,7 +845,7 @@ static bool warn(char *title, char *fmt, ...)
  */
 static void capitalize(char *string)
 {
-	register int i,j=0;
+	register int i,j=-1;
 	bool start=TRUE;
 
 	for(i=0; i<(int)strlen(string); ++i) {
@@ -853,9 +853,12 @@ static void capitalize(char *string)
 			if(start==TRUE) { string[i]=(char)toupper((int)string[i]); j=i; }
 			else string[i]=(char)tolower((int)string[i]);
 			start=FALSE;
+		} else if(strchr(" ",string[i])!=NULL) {            
+			j=-1;					
 		}
-		if(strchr(":",string[i])!=NULL)
-			string[j]=(char)tolower((int)string[j]);
+		// Don't capitalize strings that begin with a irc handle, or http:// links.
+		if(j>=0 && strchr(":",string[i])!=NULL)         
+			string[j]=(char)tolower((int)string[j]);	
 		if((i>2)&&(strchr("!.?", string[i-1])!=NULL)&&(isspace(string[i])))
 			start=TRUE;
 	}
